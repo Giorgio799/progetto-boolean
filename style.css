@@ -1,0 +1,74 @@
+body{
+  background-image: url(background.JPG);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.contenitore{
+  width: 1000px;
+  height: 800px;
+  padding-left: 20%;
+  opacity: 0.8;
+}
+
+#immagine{
+  width: 1000px;
+  height:150px;
+  position: relative;
+}
+
+.logo{
+  width: 240px;
+  height: 110px;
+  position: absolute;
+  top: 0;
+  left: 38%
+}
+
+.logo-text{
+  width: 1000px
+  display: block;
+  font-size: 25px;
+  position: absolute;
+  bottom: 0;
+  left: 33%
+}
+
+#bottoni{
+  width: 1000px;
+  height: 50px;
+  position: relative;
+  background-color: #7CFC00;
+
+}
+
+.ciao{
+  position: absolute;
+  top: 25%;
+  left: 35%
+}
+
+#caselle{
+  width: 800px;
+  height: 350px;
+  display: block;
+  color: white;
+}
+
+#carica1{
+  height: 15px;
+  width: 200px;
+  background-color:red;
+}
+
+#carica2{
+  height: 15px;
+  width:300px;
+  background-color: lightgreen;
+}
+
+#carica3{
+  height: 15px;
+  width: 100px;
+  background-color:yellow;
+}
